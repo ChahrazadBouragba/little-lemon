@@ -1,6 +1,6 @@
-import fish from '../imges/fish.png'
-import brushetta from '../imges/bruchetta.png'
-import lemonDessert from '../imges/lemon dessert.jpg'
+import fish from '../imges/penkaces.webp'
+import brushetta from '../imges/yellow.jpg'
+import lemonDessert from '../imges/homos.jpg'
 import delever from '../imges/DELEVER.png';
 
 export default function Highlights() {
