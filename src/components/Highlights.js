@@ -1,4 +1,4 @@
-import fish from '../imges/fish1.png'
+import fish from '../imges/fish.png'
 import brushetta from '../imges/bruchetta.png'
 import lemonDessert from '../imges/lemon dessert.jpg'
 
