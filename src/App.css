@@ -246,7 +246,7 @@ header button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  
 }
 .about-section h1 {
   font-family: 'Merriweather', serif;
