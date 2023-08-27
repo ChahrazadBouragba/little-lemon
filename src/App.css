@@ -75,7 +75,8 @@ header button {
 }
 .hero-description p {
   color: antiquewhite;
-  max-width: 60%;
+  max-width: 34rem;
+  min-width: 100%;
   margin-top: 1rem;
   font-size: 1.1rem;
 }
@@ -113,9 +114,9 @@ header button {
   border-radius: 16px;
   border: none;
   background-color: #f4ce14;
-  margin-top: 0.5rem;
   font-weight: bolder;
   white-space: nowrap;
+  font-size: 1.01rem;
 }
 .highlights-heading h1 {
   margin-right: auto;
