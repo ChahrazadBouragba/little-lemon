@@ -8,36 +8,27 @@
 
 /*! HEADER CSS */
 header {
-  overflow: hidden;
   display: flex;
   align-items: center;
-  /* max-width: 75%; */
-  /* white-space: nowrap; */
   top: 0;
   z-index: 999;
-  /* margin: 0 auto; */
-  /* border: 1px solid red; */
-  padding: 1rem;
-  padding-inline: 7rem;
+  border: 1px solid red;
+  padding: 1rem 7rem;
   width: 100%;
   position: sticky;
   background-color: white;
 }
 .heading-logo {
-  max-width: 12rem;
+  width: 12rem;
   margin-right: auto;
 }
 header ul {
   list-style: none;
   display: flex;
   gap: 2rem;
-  /* white-space: nowrap; */
-  /* border: 1px solid red; */
 }
 .heading-basket {
-  max-width: 2rem;
-  /* margin-top: -0.4rem; */
-  /* border: 1px solid red; */
+  width: 2rem;
 }
 
 header button {
@@ -63,6 +54,7 @@ header button {
 
   padding: 1rem 8rem;
   height: 26rem;
+  transition: transform 0.3s ease;
 }
 
 .hero-description h1 {
@@ -96,6 +88,11 @@ header button {
   height: 27rem;
   margin-top: 7rem;
   border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+.hero-img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 /*! HERO CSS ENDS HERE */
 
@@ -109,6 +106,7 @@ header button {
 .highlights-heading {
   display: flex;
   margin-bottom: 3rem;
+  align-items: center;
 }
 .highlights-heading button {
   padding: 0.9rem 1.3rem;
@@ -118,6 +116,7 @@ header button {
   font-weight: bolder;
   white-space: nowrap;
   font-size: 1.01rem;
+  /* max-height: 3rem; */
 }
 .highlights-heading h1 {
   margin-right: auto;
@@ -129,7 +128,7 @@ header button {
 
 .cards-container {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
   /* border: 1px solid green; */
 
@@ -140,17 +139,17 @@ header button {
   }
   
   .cards-container article {
-    /* height: 80%; */
-    padding: 0;
   border-radius: 16px;
   flex: 1;
   background-color: #edefee;
+  transition: transform 0.3s ease;
+}
+.cards-container article:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .card-description {
   padding: 1rem 1.4rem;
-}
-.cards-container h3 {
-  margin-top: 2rem;
 }
 
 .brushettaImg {
@@ -171,4 +170,26 @@ header button {
   height: 20rem;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+}
+
+.pricing-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.pricing-div h2 {
+  margin-right: auto;
+}
+.pricing-div p {
+  color: tomato;
+  font-weight: bold;
+}
+.card-delivery-div {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.delever {
+  margin-left: auto;
+  width: 2.3rem;
 }
