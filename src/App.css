@@ -8,6 +8,7 @@
 
 /*! HEADER CSS */
 header {
+  overflow: hidden;
   display: flex;
   align-items: center;
   /* max-width: 75%; */
